@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/mainbackground"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:text="  VOICE  CHANGE"
+            android:textColor="#F0FFF0"
+            android:textSize="60sp" />
+
+        <ImageView
+            android:id="@+id/btn_login"
+            android:layout_width="200dp"
+            android:layout_height="300dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/kenan" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/bg_btn"
+            android:text="Start"
+            android:textColor="#00868B" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="500dp"
+            android:layout_toRightOf="@id/btn1"
+
+            android:background="@drawable/bg_btn"
+            android:text="Stop"
+
+            android:textColor="#00868B" />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/btn1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_btn"
+            android:text="Continue"
+            android:textColor="#00868B" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="75dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/btn1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/btn3"
+            android:background="@drawable/bg_btn"
+            android:text="Over"
+            android:textColor="#00868B" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="480dp"
+            android:text="Recording"
+            android:textColor="#F0FFF0" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="480dp"
+            android:text="Preview"
+            android:textColor="#F0FFF0" />
+
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="500dp"
+            android:layout_toRightOf="@id/btn4"
+            android:background="@drawable/bg_btn"
+            android:text="Play"
+            android:textColor="#00868B" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="500dp"
+            android:layout_toRightOf="@id/btn5"
+            android:background="@drawable/bg_btn"
+            android:text="Stop"
+            android:textColor="#00868B" />
+
+        <Button
+            android:id="@+id/btn7"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/btn1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/btn4"
+            android:background="@drawable/bg_btn"
+            android:text="Continue"
+            android:textColor="#00868B" />
+
+        <Button
+
+            android:id="@+id/btn8"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/btn1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/btn5"
+            android:background="@drawable/bg_btn"
+            android:text="Over"
+
+            android:textColor="#00868B" />
+
+        <ImageButton
+            android:id="@+id/btn9"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/btn8"
+            android:scaleType="centerCrop"
+            android:src="@drawable/putong" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:id="@+id/tv_9"
+            android:layout_below="@id/btn9"
+            android:text="Normal"
+            android:textColor="#F0FFF0" />
+
+        <ImageButton
+            android:id="@+id/btn10"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/btn8"
+            android:layout_toEndOf="@id/btn9"
+            android:scaleType="centerCrop"
+            android:src="@drawable/luoli"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_10"
+            android:layout_below="@id/btn10"
+            android:layout_width="44dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="165dp"
+            android:text="Sister"
+            android:textColor="#F0FFF0" />
+
+
+        <ImageButton
+            android:id="@+id/btn11"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/btn8"
+            android:layout_toEndOf="@id/btn10"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dashu"
+            android:text="大叔" />
+
+        <TextView
+            android:id="@+id/tv_11"
+            android:layout_below="@id/btn11"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:text="Uncle"
+            android:textColor="#F0FFF0" />
+
+        <ImageButton
+            android:id="@+id/btn12"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/tv_9"
+            android:scaleType="centerCrop"
+            android:src="@drawable/jingsong"
+            android:text="惊悚" />
+
+        <TextView
+            android:layout_width="63dp"
+            android:id="@+id/tv_12"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn12"
+            android:layout_marginLeft="45dp"
+            android:text="Scary"
+            android:textColor="#F0FFF0" />
+
+        <ImageButton
+            android:id="@+id/btn13"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/tv_10"
+            android:layout_toRightOf="@id/btn12"
+            android:scaleType="centerCrop"
+            android:src="@drawable/xiaochou"
+            android:text="搞怪"  />
+        <TextView
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn13"
+            android:id="@+id/tv_13"
+            android:layout_marginLeft="165dp"
+            android:text="Funny"
+            android:textColor="#F0FFF0" />
+
+        <ImageButton
+            android:id="@+id/btn14"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/tv_11"
+            android:layout_toRightOf="@id/btn13"
+            android:scaleType="centerCrop"
+            android:src="@drawable/kongling"
+            android:text="空灵" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tv_14"
+            android:layout_below="@id/btn14"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="270dp"
+            android:text="Intangible"
+            android:textColor="#F0FFF0" />
+
+        <ImageButton
+            android:id="@+id/btn15"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/tv_12"
+            android:scaleType="centerCrop"
+            android:src="@drawable/hechang"
+            android:text="合唱团" />
+        <TextView
+            android:id="@+id/tv_15"
+            android:layout_below="@id/btn15"
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:text="Chorus"
+            android:textColor="#F0FFF0" />
+
+        <ImageButton
+            android:id="@+id/btn16"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/tv_13"
+            android:layout_toRightOf="@id/btn12"
+            android:scaleType="centerCrop"
+            android:src="@drawable/chanyin"
+            android:text="颤音" />
+        <TextView
+            android:id="@+id/tv_16"
+            android:layout_below="@id/btn16"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="175dp"
+            android:text="Trill"
+            android:textColor="#F0FFF0" />
+
+        <ImageButton
+            android:id="@+id/btn17"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/tv_14"
+            android:layout_toRightOf="@id/btn16"
+            android:scaleType="centerCrop"
+            android:src="@drawable/quansunyin"
+            android:text="全损音" />
+        <TextView
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_17"
+            android:layout_below="@id/btn17"
+            android:layout_marginLeft="270dp"
+            android:text="Damaged"
+            android:textColor="#F0FFF0" />
+
+        <ImageButton
+            android:id="@+id/btn18"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/tv_15"
+            android:scaleType="centerCrop"
+            android:src="@drawable/litihuanrao"
+            android:text="3D" />
+        <TextView
+            android:id="@+id/tv_18"
+            android:layout_below="@id/btn18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:text="3D"
+            android:textColor="#F0FFF0" />
+
+        <ImageButton
+            android:id="@+id/btn19"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/tv_16"
+            android:layout_toRightOf="@id/btn18"
+            android:scaleType="centerCrop"
+            android:src="@drawable/guangbo"
+            android:text="广播音" />
+        <TextView
+            android:id="@+id/tv_19"
+            android:layout_below="@id/btn19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="145dp"
+            android:text="Broadcast"
+            android:textColor="#F0FFF0" />
+
+        <ImageButton
+            android:id="@+id/btn20"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/tv_17"
+            android:layout_toRightOf="@id/btn19"
+            android:scaleType="centerCrop"
+            android:src="@drawable/yanchi"
+            android:text="延迟音" />
+        <TextView
+            android:id="@+id/tv_20"
+            android:layout_below="@id/btn20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:text="Delay"
+            android:textColor="#F0FFF0" />
+
+        <ImageButton
+            android:id="@+id/btn21"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/tv_18"
+            android:scaleType="centerCrop"
+            android:src="@drawable/wu"
+            android:text="雾蒙蒙" />
+        <TextView
+            android:id="@+id/tv_21"
+            android:layout_below="@id/btn21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:text="misty"
+            android:textColor="#F0FFF0" />
+
+        <ImageButton
+            android:id="@+id/btn22"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/tv_19"
+            android:layout_toRightOf="@id/btn21"
+            android:scaleType="centerCrop"
+            android:src="@drawable/emo"
+            android:text="魔鬼音" />
+        <TextView
+            android:id="@+id/tv_22"
+            android:layout_below="@id/btn22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="145dp"
+            android:text="Demon"
+            android:textColor="#F0FFF0" />
+
+        <ImageButton
+            android:id="@+id/btn23"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/tv_20"
+            android:layout_toRightOf="@id/btn22"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dianhua"
+            android:text="打电话" />
+        <TextView
+            android:id="@+id/tv_23"
+            android:layout_below="@id/btn23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:text="Dial"
+            android:textColor="#F0FFF0" />
+
+    </RelativeLayout>
+
+
+</ScrollView>
